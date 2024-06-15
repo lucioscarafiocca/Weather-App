@@ -1,33 +1,18 @@
-
-
-body {
-    height: 1313px;
-    width: 1920px;
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 400px 1fr;
+.container {
+  visibility: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
 }
 
-.header {
-    display: grid;
-    grid-template-rows: 100px repeat(auto-fit, minmax(50px, 50px));
-    background-color: brown;
+.temp {
+  visibility: hidden;
 }
 
-.header > div > p {
-    margin-left: 50px;
-}
-
-.header > div {
-    background-color: grey;
-}
-
-.header > div:first-child{ background-color:brown; }
-
-.container , .projects{
-    background-color: rgba(177, 95, 3, 0.993);
-}
-
-.todo {
-    background-color: blue;
+.week {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: cornflowerblue;
 }
